@@ -1,0 +1,48 @@
+/* coolors https://coolors.co/353535-9b8816-ce796b-d9d9d9-a03e99 */
+/* jet: #353535
+olive: #9b8816
+new york pink: #ce796b
+gainsboro: #d9d9d9
+
+plum: #a03e99
+babypowder: #f7f7f2 */
+
+body {
+    margin: 0;
+    background-color: #353535;
+}
+
+.header {
+    text-align: center;
+    color: #f7f7f2;
+}
+
+posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    /* color: red; */
+}
+
+h3 {
+    color: #a03e99;
+}
+
+.day {
+    flex: 1 0 21%;
+    margin: 25px;
+    padding: 10px;
+    background-color: #f7f7f2;
+    border: dotted #ce796b 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image {
+    max-width: 100%;
+    margin-top: auto;  
+}
